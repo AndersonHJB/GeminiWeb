@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Tech Dot Pattern */
+.bg-dot-pattern {
+  background-image: radial-gradient(circle at 1px 1px, rgb(203 213 225) 1.5px, transparent 0);
+  background-size: 32px 32px;
+}
+.dark .bg-dot-pattern {
+  background-image: radial-gradient(circle at 1px 1px, rgb(30 41 59) 1.5px, transparent 0);
+}
+
+/* Subtle Grid for extra tech feel (optional use) */
+.bg-grid-pattern {
+  background-size: 60px 60px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+}
+.dark .bg-grid-pattern {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}

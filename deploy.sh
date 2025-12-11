@@ -9,10 +9,6 @@ git push -u origin main
 # yarn run docs:build
 npm run build
 
-end_time_one=$(date +%s)
-run_time_one=$((end_time_one - start_time_one))
-start_time_two=$(date +%s)
-
 set -e
 cd dist
 # git push -f vuepress@121.89.218.11:/var/www/html.git main

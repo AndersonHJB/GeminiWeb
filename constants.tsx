@@ -9,7 +9,8 @@ export const PROJECTS: Project[] = [
     url: 'https://gemini.bornforthis.cn/jarvis-holographic-ui/',
     githubUrl: 'https://github.com/AndersonHJB/jarvis-holographic-ui', // Replace with actual
     articleUrl: 'https://bornforthis.cn/column/Python-Programming-Course/P10-Share/Interesting-project/01-Gemini3-jarvis-holographic-ui.html', // Replace with actual
-    thumbnailUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800',
+    // thumbnailUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800',
+    thumbnailUrl: '/images/P01-贾维斯.png',
     tags: ['React', 'TypeScript', 'Three.js', 'React Three Fiber', 'MediaPipe', 'Tailwind CSS'],
     iconName: 'Cpu',
     status: 'live',
